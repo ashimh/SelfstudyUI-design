@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_action_home"
+
+        android:title="@string/nav_home"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/nav_test"
+
+        android:icon="@drawable/ic_action_tests"
+        android:title="@string/nav_test"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/nav_analysis"
+        android:icon="@drawable/ic_action_analysis"
+        android:title="@string/nav_analysis"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/nav_doubts"
+        android:icon="@drawable/ic_action_doubts"
+        android:title="@string/nav_doubts"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_action_profile"
+        android:title="@string/nav_profile"
+        app:showAsAction="withText" />
+
+</menu>
